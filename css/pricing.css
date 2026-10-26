@@ -1,0 +1,362 @@
+.custom-navbar {
+    border-radius: 20px;
+    margin: 15px;
+    box-shadow: 0 5px 20px #00000026;
+    /* background-color:white !important; */
+    backdrop-filter: blur(10px);
+     background-color:rgba(0, 0, 0, 0.491)
+
+     !important;
+     
+}
+.navbar-brand {
+    color:aqua;
+    font-weight: 600;
+    font-size: 27px;
+    
+}
+/* navbar ke links ka work */
+.navbar-nav .nav-link {
+    color:white !important;
+    font-size: 18px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+font-weight: 700;
+transform: translateY(-3px);
+border-left: 3px solid red;
+border-right: 3px solid red;
+text-decoration: underline overline;
+}
+
+/* navbar ka kaam yaha pe khatam hota he  */
+
+/* pricing-section ka kaam  */
+
+.pricing-section{
+    width: 100%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    /* background-color: rgb(219, 249, 239); */
+}
+
+/* pricing section ka kaam end */
+
+/* pricing heading ka kaam ya ha se start he */
+.pricing-heading{
+    text-align: center;
+    /* background-color: aqua; */
+    padding-top: 20px;
+       padding-bottom: 20px;
+
+}
+
+.pricing-heading h5{
+    text-align: center;
+    font-weight: 500;
+}
+
+.pricing-heading h3{
+    text-align: center;
+    font-weight: 600;
+}
+
+.pricing-heading p{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+/* pricing heading ka kaam ya ha se end he */
+
+/* pricing option ka kaam yaha se shoro hota he  */
+
+.pricing-options{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* background-color: bisque; */
+     padding-top: 20px;
+       padding-bottom: 20px;
+}
+
+.pricing-options button{
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    background-color:plum;
+}
+
+.pricing-options button:hover{
+    font-weight: 700;
+    border: 2px solid cornflowerblue;
+    background-color: white;
+    color: black;
+}
+
+/* pricing option ka kam yha pe end hota he  */
+
+/* pricing cards ka kaam yaha se shoror hota he  */
+
+.pricing-cards{
+    width: 100%;
+    height: auto;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+
+    border-bottom: 0.5px solid black;
+   
+}
+
+.pricing-card{
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.8);
+    width: 20%;
+    padding: 10px 20px;
+}
+
+.pricing-card:hover{
+    
+      font-weight: 700;
+    border: 3px solid cornflowerblue;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+
+}
+
+.pricing-card h3{
+    font-size: 25px;
+     padding-left: 7px;
+}
+
+.pricing-card h2{
+    font-size: 20px;
+    padding-left: 8px;
+}
+
+.pricing-card p{
+    font-size: 20px;
+    font-weight: 300;
+   padding-left: 10px;
+}
+
+.pricing-card ul li {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.pricing-card button {
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 400;
+}
+
+.pricing-card button:hover{
+ font-weight: 700;
+    border: 2px solid cornflowerblue;
+    background-color: white;
+    color: black;
+}
+
+/* pricing card ka kaam yaaha pe end hota he  */
+
+.plan-comparison{
+    width: 100%;
+    height: auto;
+    /* background-color: cadetblue; */
+    padding: 20px 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+   
+    margin-bottom: 10px;
+   
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.8);
+}
+
+.plan-comparison:hover{
+     box-shadow: 0px 8px 20px rgba(0,0,0,0.8);
+   
+}
+.plan-comparison h2{
+    text-align: center;
+    font-weight: 400;
+}
+
+
+
+.plan-comparison p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.plan-comparison p:hover{
+    font-weight: 600;
+    color: orange;
+}
+
+/* plan-comparison ka kaa yaha end hota he  */
+/* table ka kaam yaha se shoro hota he jo plan-comparison ke ander hi baan aoa he  */
+
+.plan-comparison table{
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.8);
+    /* background-color: darkgray; */
+    border: 0.5px solid black;
+   
+}
+
+
+
+.plan-comparison table th{
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 10px;
+    border: 0.5px solid black;
+    padding-bottom: 10px;
+     /* padding-left:90px ;    */
+     text-align: center;
+    /* background-color: bisque; */
+}
+
+.plan-comparison table tr{
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+border: 0.5px solid black;
+    /* background-color: bisque; */
+}
+
+.plan-comparison table td{
+    border-left: 0.5px solid black;
+    font-size: 20px;
+}
+
+/* table ka kaam yaha se end hota he jo plan-comparison ke ander hi baan aoa he  */
+
+/* . pricing faq ka kaam yaha se start hoa he  */
+
+.pricing-faq{
+    width: 100%;
+    padding: 20px 30px;
+    margin-top: 30px;
+    /* background-color: darkgray; */
+    flex-direction: column;
+    text-transform: capitalize;
+    justify-content: space-around;
+    line-height: 35px;
+    gap: 20px;
+}
+
+.pricing-faq h3{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.faq-item h4{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.faq-item p{
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+/* .pricing-faq ka kaam yaha pe end hogaya he  */
+
+.pricing-contact{
+      width: 100%;
+    padding: 20px 30px;
+    margin-top: 30px;
+    background-color: bisque;
+    text-align: center;
+   
+}
+
+.pricing-contact h3{
+    font-size: 20px;
+}
+
+.pricing-contact p{
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.pricing-contact a {
+    font-size: 20px;
+    font-weight: 800;
+    font-style: italic;
+/* margin-bottom: 20px; */
+}
+
+/* pricing contact  ka kaam yaha pe khatam hota he  */
+
+/* footer ka kaa yaha se shoro hota he  */
+
+.main-footer{
+    width: 100%;
+    min-height: auto;
+    background-color: #222;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-box{
+    /* background-color: white; */
+    width: 23%;
+    min-height: 200px;
+  
+}
+.footer-box h4{
+   color: white;
+     margin-bottom: 20px;
+   font-size: 22px;
+}
+.footer-box p{
+    color:lightgrey;
+    margin-bottom: 12px;
+    font-size: 15px;
+    line-height: 1.8;
+    cursor: pointer;
+}
+.footer-box p:hover {
+    color: orange;
+    transition: 0.3s;
+
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-top: 1px solid gray;
+    /* padding-top: 5px; */
+    margin-top: 2px;
+}
+.copyright p{
+    text-align: center;
+    font-size: 14px;
+    color: #aaaaaa;
+    margin-top: 5px;
+}
+
+/* footer ka kaam yaha pe khatam hota he  */

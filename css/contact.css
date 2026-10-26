@@ -1,0 +1,326 @@
+
+/* .body{background-color:sandybrown}; */
+.custom-navbar {
+    border-radius: 20px;
+    margin: 15px;
+    box-shadow: 0 5px 20px #00000026;
+    /* background-color:white !important; */
+    backdrop-filter: blur(10px);
+     background-color:rgba(0, 0, 0, 0.491)
+
+     !important;
+     
+}
+.navbar-brand {
+    color:aqua;
+    font-weight: 600;
+    font-size: 27px;
+    
+}
+/* navbar ke links ka work */
+.navbar-nav .nav-link {
+    color:white !important;
+    font-size: 18px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+font-weight: 700;
+transform: translateY(-3px);
+border-left: 3px solid red;
+border-right: 3px solid red;
+text-decoration: underline overline;
+}
+/* navbar ka kaam yaha pe khatam hota he */
+/* 
+hero section ka kaam yaha se start hota he  */
+
+.hero-project{
+width: 100%;
+    height: 400px;
+    background-image: url(../images\ \(10\).jfif);
+    background-size: 100% 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-project h3{
+    font-size: 50px;
+    color: white;
+
+}
+
+.hero-project p{
+    font-size: 22px;
+    color: white;
+}
+
+/* hero section ka kaam yaha pe khatam hota he */
+   
+/* main contact section ka kaam  */
+
+.contact-section{
+    width: 100%;
+    padding: 50px 5%;
+  /* background-color: bisque; */
+    box-sizing: border-box;
+}
+
+/* .contact-container */
+
+.contact-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 25px;
+    box-sizing: border-box;
+
+}
+
+/* contact-info */
+
+.contact-info{
+    width:50%;
+  padding-top: 30px;
+padding-left: 10px;
+    flex: 1;
+    min-width: 0; 
+     background-color: #f5f7fa;
+}
+
+.contact-info h5{
+    font-size: 20px;
+    font-weight: 600;
+
+    padding-left: 10px;
+}
+
+.contact-info p{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* contact-form right side */
+
+.contact-form{
+    width: 50%;
+        flex: 1;
+    min-width: 0;
+    padding: 25px;
+    background-color: #ffffff8a;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);   
+}
+
+/* formki setting ka kaam  */
+
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.contact-form label{
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 4px;
+}
+
+
+.contact-form input{
+    width: 100%;
+    height: 45px;
+padding: 10px 12px;
+border: 1px solid #d1d5db;
+border-radius: 6px;
+font-size: 15px;
+box-sizing: border-box;
+outline: none;
+transition: 0.3s;
+}
+
+/* massage textarea */
+
+.contact-form textarea {
+    width: 100%;
+    min-height: 130px;
+    padding: 12px;
+border: 1px solid #d1d5db;
+font-size: 15px;
+box-sizing: border-box;
+outline: none;
+resize: vertical;
+transition: 03s;
+
+}
+
+/* input hover */
+.contact-form input:hover,
+.contact-form textarea:hover{
+    border-color: #007bff;
+
+}
+
+/* input focus */
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+    /* border-color: #007bff; */
+    box-shadow: 0 0 6px rgba(0, 123, 255, 0.25);
+       border: 2px solid #007bff;
+     
+}
+
+/* submit button */
+
+.contact-form button{
+    width: 100%;
+    padding: 13px;
+    margin-top: 8px;
+    background-color: #007bfb;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* button hover */
+
+.contact-form button:hover{
+    background-color: #0056b3;
+
+}
+
+/* left side ka kaam yaha se he  */
+
+.contact-info h4{
+    font-size: 30px;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 15px;
+}
+
+/* hesding hover */
+
+.contact-info h4:hover{
+    color: #007bff;
+}
+
+/* contact inf0 me mujood paragraph ka kaam  */
+.contact-info p{
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555555;
+    margin-bottom: 25px;
+    transition: color 0.3s ease;
+}
+/* 
+paragraph hover ka kaam  */
+
+.contact-info p:hover{
+    color: #007bff;
+}
+
+/* map kakaam  */
+.contact-map{
+    width: 100%;
+    padding: 30px;
+    margin-top: 30px;
+    background-color: #f5f7fa;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.contact-map h3{
+    font-size: 28px;
+    color: #222;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.contact-map p{
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.contact-map iframe{
+    width: 100%;
+    height: 350px;
+    border: none;
+    border-radius: 10px;
+    display: block;
+
+}
+
+
+ /* footer ka kaaa m yaha se shoro hota he  */
+.main-footer{
+    width: 100%;
+    min-height: auto;
+    background-color: #222;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-box{
+    /* background-color: white; */
+    width: 23%;
+    min-height: 200px;
+  
+}
+.footer-box h4{
+   color: white;
+     margin-bottom: 20px;
+   font-size: 22px;
+}
+.footer-box p{
+    color:lightgrey;
+    margin-bottom: 12px;
+    font-size: 15px;
+    line-height: 1.8;
+    cursor: pointer;
+}
+.footer-box p:hover {
+    color: orange;
+    transition: 0.3s;
+
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-top: 1px solid gray;
+    /* padding-top: 5px; */
+    margin-top: 2px;
+}
+.copyright p{
+    text-align: center;
+    font-size: 14px;
+    color: #aaaaaa;
+    margin-top: 5px;
+}
+
+/* footer ka kkaam yaha pe khatam hota he */

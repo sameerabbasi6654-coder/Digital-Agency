@@ -1,0 +1,525 @@
+
+/* .body{background-color:sandybrown}; */
+.custom-navbar {
+    border-radius: 20px;
+    margin: 15px;
+    box-shadow: 0 5px 20px #00000026;
+    /* background-color:white !important; */
+    backdrop-filter: blur(10px);
+     background-color:rgba(0, 0, 0, 0.491)
+
+     !important;
+     
+}
+.navbar-brand {
+    color:aqua;
+    font-weight: 600;
+    font-size: 27px;
+    
+}
+/* navbar ke links ka work */
+.navbar-nav .nav-link {
+    color:white !important;
+    font-size: 18px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+font-weight: 700;
+transform: translateY(-3px);
+border-left: 3px solid red;
+border-right: 3px solid red;
+text-decoration: underline overline;
+}
+
+/* login wale form ka kaam  */
+
+.login-box{
+    width: 450px;
+    max-height: 90px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.login-header{
+    text-align: center;
+    background-color: #0d6efd;
+    color: white;
+    padding: 25px 15px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.login-header h2{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.login-header p{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.login-icon{
+    width: 65px;
+    height: 65px;
+    background-color: white;
+   color: black;
+    /* color: #0d6efd; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    margin:0 auto 15px
+}
+
+
+.login-body{
+    
+    border-radius: 10px;
+        
+}
+
+.login-body form{
+   
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.login-body label{
+font-size: 16px;
+font-weight: 600;
+
+}
+
+.login-body input{
+   height: 40px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.login-body button{
+    font-size: 16px;
+  
+}
+
+
+
+
+
+
+ 
+
+/* hero section */
+
+.hero {
+    width: 100%;
+    height: 460px;
+    overflow: hidden;
+  
+}
+.hero img{ 
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    display: block;
+    /* border-radius: 0px 90px 0px 90px; */
+}
+
+/* cards work */
+
+.recent-project {
+    margin-left: 42%;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 25px;
+    text-decoration:underline overline 3px solid red;
+    
+}
+
+.card {
+    height: 390px;
+    margin-top: 10px;
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid black;
+    
+}
+
+.card img {
+    height: 180px;
+    border-radius: 10px;
+    border: 1px solid black;
+    
+}
+
+.card-title{
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.card-text{
+    font-weight: 400;
+}
+.btn {
+    border-radius: 10px;
+    border: 1.5px solid black;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+/* about work */
+.name {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+    text-decoration:underline overline 3px solid red;
+}
+.about {
+    width: 70%;
+    height:250px;
+    /* background-color: cornflowerblue; */
+    display: flex;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 15%;
+}
+.about-text{
+    width: 65%;
+    height: 300px;
+    /* background-color: aqua; */
+    
+}
+.about-text h4{
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top:10px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.about-p{
+    margin-left: 30px;
+  
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.about-img {
+    width: 35%;
+    height: 250px;
+    display: flex;
+    background-size: cover;
+    
+    /* background-color: aquamarine; */
+}
+
+.about-img img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px 20px 20px 10px;
+}
+
+
+
+/* why choose us ka kaaam yah epe khatam hota he jis me hume 4 cards or icocon wagera lagai he   */
+
+.why-choose{
+    width: 100%;
+    height: auto;
+    padding: 50px 30px;
+    text-align: center;
+    background-color:lemonchiffon;
+}
+
+.why-choose h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.why-text {
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.why-cards{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    /* background-color: bisque; */
+
+}
+
+.why-card{
+
+    padding: 10px;
+text-align: center;
+/* background-color: aqua; */
+border-radius: 10px;
+box-shadow: 0 0 15px gray;
+}
+
+
+
+/* yaha pe why choose us ka kaam khatam otabhe  */
+
+
+
+/* 
+slideer work */
+
+.slider{
+     margin-top: 20px;
+    font-size: 30px;
+  text-align: center;
+    font-weight: 500;
+  text-decoration:underline overline 3px solid red;
+}
+.carousel-inner{
+    height: 400px;
+    width: 98%;
+    border-radius: 30px;
+    margin-left: 1%;
+   
+}
+.carousel-item img {
+     height: 400px;
+    width: 100%;
+    background-size: cover;
+}
+
+/* why Us work */
+.why-us{
+    width: 100%;
+    height: 300px;
+    justify-content: space-around;
+    border: 1px solid black;
+    overflow: hidden;
+    border-radius: 20px ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   
+    /* background-color: aqua; */
+    display: flex;
+  
+}
+.why-image{
+    width:35%;
+height: 290px;
+background-color: white;
+}
+.why-image img{
+    width: 100%;
+    height: 290px;
+    padding-top: 4px;
+    border-radius: 50px 10px 50px 10px;
+}
+
+.why-content{
+    width: 25%;
+    height: 300px;
+  
+   
+}
+
+.why-content h4{
+margin-left:15px;
+margin-top: 30px;
+font-size: 20px;
+font-weight: 400;
+text-decoration: underline 3px solid red;
+
+}
+
+.why-content p{
+    margin-left: 15px;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+
+.card-3{
+
+width: 35%;
+height: 300px;
+
+}
+
+
+.item-card{
+    
+    line-height: 4px;
+    width: 96%;
+    margin-left: 2%;
+}
+.item-card h4{
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 90px;
+    margin-top: 30px;
+    
+ 
+}
+
+.item-card p{
+    margin-left:60px ;
+    font-weight: 300;
+      margin-left: 90px;
+}
+
+i{
+    font-size: 50px;
+}
+
+/* contact  us or map ka kaam  */
+.left-side{
+    width: 96%;
+    height:450px;
+    margin-left: 2%;
+    margin-top: 30px;
+     /* background-color: bisque; */
+    border: 1px solid black; 
+    display: flex;
+    gap: 20px;
+}
+.main-box{
+   width: 60%;
+   height: 150px;
+   margin-top: 10px;
+   margin-left: 20px;
+   flex-shrink: 0;
+   /* background-color: rgb(101, 163, 163); */
+}
+
+.card-container{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    gap: 20px;
+}
+.card-1{
+    flex: 1;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.card-2{
+    flex: 1;
+    height: 150px;
+    border: 1px solid black;
+}
+.card-3{
+    flex: 1;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.map-container{
+    width: 100%;
+    height: 250px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+/*    
+    background-color:aqua ; */
+
+}
+
+.map-container iframe{
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+/* right-side work */
+.right-side{
+    width: 35%;
+    /* border: 0.7px solid black; */
+    /* background-color: aqua; */
+}
+
+.form-container h2{
+    text-align: center;
+    padding-top: 10px;
+}
+.input , textarea{
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+
+.form{
+ 
+    margin-top: 50px;
+   padding-left: 15%;
+    padding-right: 15%;
+  display: flex;
+  flex-direction: column;
+gap: 30px;
+}
+
+.submit{
+    width: 150px;
+    margin-left: 25%;
+}
+
+/* footer ka  kaam yaha se strat horaha he */
+.main-footer{
+    width: 100%;
+    min-height: auto;
+    background-color: #222;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-box{
+    /* background-color: white; */
+    width: 23%;
+    min-height: 200px;
+  
+}
+.footer-box h4{
+   color: white;
+     margin-bottom: 20px;
+   font-size: 22px;
+}
+.footer-box p{
+    color:lightgrey;
+    margin-bottom: 12px;
+    font-size: 15px;
+    line-height: 1.8;
+    cursor: pointer;
+}
+.footer-box p:hover {
+    color: orange;
+    transition: 0.3s;
+
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-top: 1px solid gray;
+    /* padding-top: 5px; */
+    margin-top: 2px;
+}
+.copyright p{
+    text-align: center;
+    font-size: 14px;
+    color: #aaaaaa;
+    margin-top: 5px;
+}
